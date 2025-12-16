@@ -4,8 +4,13 @@ Sıkıldığında ne yapacağını bilmiyorsan, bu uygulama tam sana göre! **Te
 
 ## 📱 Ekran Görüntüleri
 
-<!-- Uygulama ekran görüntüleri buraya eklenecek -->
-![Ana Ekran](./screenshots/home.png)
+
+![ana-ekran](https://github.com/user-attachments/assets/be0456dd-9c8e-4860-9fc1-af63f0c6170e)
+![favori-ekranı](https://github.com/user-attachments/assets/df1db5e1-8390-432e-a561-f6770825935f)
+![fikir-ekranı](https://github.com/user-attachments/assets/def60f13-ae31-44af-badd-a629f484961a)
+
+
+
 
 ## ✨ Özellikler
 
