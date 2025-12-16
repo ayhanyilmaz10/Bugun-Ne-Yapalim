@@ -1,11 +1,30 @@
 {
   "expo": {
-    "name": "my-expo-app",
-    "slug": "my-expo-app",
+    "name": "Bugün Ne Yapalım?",
+    "slug": "bugun-ne-yapalim",
     "version": "1.0.0",
-
-    "scheme": "my-expo-app",
+    "scheme": "bugun-ne-yapalim",
     "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0ea5e9"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.buguneyapalim.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#0ea5e9"
+      },
+      "package": "com.buguneyapalim.app"
+    },
     "web": {
       "bundler": "metro",
       "output": "static",
@@ -14,29 +33,11 @@
     "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true,
-
       "tsconfigPaths": true
     },
-
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-
-    "userInterfaceStyle": "light",
-
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+    "extra": {
+      "shortDescription": "Sıkıldın mı? Bir butona bas ve sana ne yapacağını söyleyelim!",
+      "longDescription": "Bugün Ne Yapalım? ile sıkıldığında yapabileceğin harika aktiviteler keşfet! Bu basit ama eğlenceli uygulama, tek bir dokunuşla sana rastgele öneriler sunar. İster 10 dakika yürüyüş yapmak iste, ister masanı toplamak, ister bir arkadaşına mesaj atmak olsun - uygulama her zaman ilham verici bir fikir hazır tutar. Modern ve sade tasarımıyla kolayca kullanabilir, günlük rutinden sıyrılarak yeni aktiviteler keşfedebilirsin."
     }
   }
 }
