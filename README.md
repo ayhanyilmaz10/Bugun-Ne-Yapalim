@@ -80,4 +80,3 @@ MIT License
 
 ---
 
-Made with ❤️ using Expo & React Native
